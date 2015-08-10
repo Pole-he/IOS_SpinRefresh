@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0865EF0CF294DCFF2671E206 /* RTSpinKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B35439F6A39718C696961F1 /* RTSpinKitUtils.m */; };
+		0A7EA3DD9A7DFCC52098AD34 /* RTSpinKitWanderingCubesAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D2C3126B1DAA54B799CA13 /* RTSpinKitWanderingCubesAnimation.h */; };
+		0A8FD22426F0963361183120 /* RTSpinKitCircleFlipAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 854C66D102FC45A25CB89A8D /* RTSpinKitCircleFlipAnimation.m */; };
+		0BE82769A4CEFE5A28DEEA14 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 918F9906C89292AFEAE4EFB7 /* Pods-dummy.m */; };
+		17B408B4CEFE2A843658801E /* RTSpinKitPlaneAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5954CE80CA5F4F3AB6E31086 /* RTSpinKitPlaneAnimation.m */; };
+		24B82CFEFA621A556ADBCA7C /* RTSpinKitAnimating.h in Headers */ = {isa = PBXBuildFile; fileRef = 191C9B085786336E83B9BD84 /* RTSpinKitAnimating.h */; };
+		2E56F1A4897E41DC4A1CF31B /* RTSpinKitFadingCircleAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 362834FB850527FA7E8BB4B0 /* RTSpinKitFadingCircleAltAnimation.m */; };
+		362B77051B190BD9097F3176 /* RTSpinKitView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9DB437C122ABBEA17858819 /* RTSpinKitView.h */; };
+		3B3D16AD6DC75E2A4DF33461 /* RTSpinKitPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE73DC03A9FFC87C3004A47 /* RTSpinKitPulseAnimation.h */; };
+		423D65945AD86CA189A11104 /* RTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = E555C9B66A7F75CA7365DCD5 /* RTSpinKitView.m */; };
+		476768B488DAB574D8DE02D2 /* RTSpinKitWaveAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0CB5DDA8DD5238D715B45F /* RTSpinKitWaveAnimation.h */; };
+		486C94147ACE00D0163E1BBC /* RTSpinKitWanderingCubesAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E297D7E96E7972CDBA623D /* RTSpinKitWanderingCubesAnimation.m */; };
+		4B60F0B8C33506DD154CFE4A /* RTSpinKitArcAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FBF7AE4565F0DE44576BB3 /* RTSpinKitArcAnimation.h */; };
+		4C169B164A4003479EB950AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B89C8CC853911E47DDE2B56 /* Foundation.framework */; };
+		4F042C43402C8C0B0B99EE92 /* RTSpinKitBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B83AA77DF6B97AFFEB23A14 /* RTSpinKitBounceAnimation.h */; };
+		52FC2D5AD83738BAFDB93028 /* RTSpinKitCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA06EF89F693EBAC72CF369 /* RTSpinKitCircleAnimation.h */; };
+		5697905240B332C16D006E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B89C8CC853911E47DDE2B56 /* Foundation.framework */; };
+		7ED32F3CC0D74674D03D4702 /* RTSpinKitArcAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F08C6844D949DD8756D05 /* RTSpinKitArcAltAnimation.m */; };
+		8E2E2985000D366E72A1C09F /* RTSpinKitCircleFlipAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEE1EF6DCD0175DFB89E171 /* RTSpinKitCircleFlipAnimation.h */; };
+		918D8C759AAD9BDB9CF990C9 /* RTSpinKitPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C1548A1F3FD4B89327839F /* RTSpinKitPulseAnimation.m */; };
+		943D4AB2BE6010C4F41E5125 /* RTSpinKitWordPressAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A10158403434CA45576C9953 /* RTSpinKitWordPressAnimation.m */; };
+		A3DF16F89A4027264DDE60A0 /* RTSpinKitChasingDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B740E2A3BED49F6FC3AD025 /* RTSpinKitChasingDotsAnimation.h */; };
+		A60BF9EA8B382577DF07F717 /* RTSpinKitArcAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF52F354D6626EDA21871DA /* RTSpinKitArcAltAnimation.h */; };
+		A695B707E346FD23ECFD8CBD /* RTSpinKitUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE93BAFEBD78835D2C373C /* RTSpinKitUtils.h */; };
+		B7B59AF720BF9CDD643D5184 /* Pods-SpinKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B85BDB60C37A3B623BA8020E /* Pods-SpinKit-dummy.m */; };
+		BD7E456CA9074D33C8F8809C /* RTSpinKitArcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 941BA73D47D9532311410787 /* RTSpinKitArcAnimation.m */; };
+		C6772FDFC18A5148DAE054B4 /* RTSpinKitWordPressAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0204BFD9B35C591E1FC588B6 /* RTSpinKitWordPressAnimation.h */; };
+		C7432D998B1FCDC7EA71A4E1 /* RTSpinKitCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2898444963439B02983DA208 /* RTSpinKitCircleAnimation.m */; };
+		CB0E8A81E3B0B383B959CF17 /* RTSpinKitPlaneAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C637F88E83AAB24E5A44030F /* RTSpinKitPlaneAnimation.h */; };
+		CC6C187E7D8298B03A4014DC /* RTSpinKitFadingCircleAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8F6CD3F572650BF7595A91 /* RTSpinKitFadingCircleAltAnimation.h */; };
+		D3701D9F61E49E614D247F05 /* RTSpinKitFadingCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FC4F573992476077517A11 /* RTSpinKitFadingCircleAnimation.h */; };
+		D521D60842C967203AF20FBE /* RTSpinKitWaveAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B060DE6883589F1AAA196 /* RTSpinKitWaveAnimation.m */; };
+		DB67C2C76FFB1EE8787A412C /* RTSpinKitBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0372B1113D95E02689A9A37B /* RTSpinKitBounceAnimation.m */; };
+		E6BFEA52928EFF33EB9B278E /* RTSpinKitFadingCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F190BDBC206169C422C352 /* RTSpinKitFadingCircleAnimation.m */; };
+		EABDB4BE0B8012552FBA1CE1 /* RTSpinKit9CubeGridAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FB54AE479CDB32995A3ED611 /* RTSpinKit9CubeGridAnimation.h */; };
+		ED33321114DEC495BE4A66F1 /* RTSpinKit9CubeGridAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C57A0CD5D5425E74700B85 /* RTSpinKit9CubeGridAnimation.m */; };
+		EE8F011E6C974278C284ABD0 /* RTSpinKitChasingDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 019EE0D824DDDF65694A0EEA /* RTSpinKitChasingDotsAnimation.m */; };
+		FA81AA8E63328119E51DE45F /* RTSpinKitThreeBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F8CBD638D96FDA3F68CC5977 /* RTSpinKitThreeBounceAnimation.h */; };
+		FCEE346C05AE67734960F03C /* RTSpinKitThreeBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0304B2265507B2CA07462F /* RTSpinKitThreeBounceAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FF445B84CAB041F40FFB627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30777DA4DF77A5FC01433340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B51D0111A74B45D403CF394;
+			remoteInfo = "Pods-SpinKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019EE0D824DDDF65694A0EEA /* RTSpinKitChasingDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitChasingDotsAnimation.m; path = SpinKit/Animations/RTSpinKitChasingDotsAnimation.m; sourceTree = "<group>"; };
+		01F190BDBC206169C422C352 /* RTSpinKitFadingCircleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitFadingCircleAnimation.m; path = SpinKit/Animations/RTSpinKitFadingCircleAnimation.m; sourceTree = "<group>"; };
+		0204BFD9B35C591E1FC588B6 /* RTSpinKitWordPressAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitWordPressAnimation.h; path = SpinKit/Animations/RTSpinKitWordPressAnimation.h; sourceTree = "<group>"; };
+		0372B1113D95E02689A9A37B /* RTSpinKitBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitBounceAnimation.m; path = SpinKit/Animations/RTSpinKitBounceAnimation.m; sourceTree = "<group>"; };
+		0DF52F354D6626EDA21871DA /* RTSpinKitArcAltAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitArcAltAnimation.h; path = SpinKit/Animations/RTSpinKitArcAltAnimation.h; sourceTree = "<group>"; };
+		114600B76AF48032B7391FA7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		191C9B085786336E83B9BD84 /* RTSpinKitAnimating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitAnimating.h; path = SpinKit/RTSpinKitAnimating.h; sourceTree = "<group>"; };
+		1A2B060DE6883589F1AAA196 /* RTSpinKitWaveAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWaveAnimation.m; path = SpinKit/Animations/RTSpinKitWaveAnimation.m; sourceTree = "<group>"; };
+		1C2DAD58D09E45B638F9942F /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FE73DC03A9FFC87C3004A47 /* RTSpinKitPulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitPulseAnimation.h; path = SpinKit/Animations/RTSpinKitPulseAnimation.h; sourceTree = "<group>"; };
+		21C1548A1F3FD4B89327839F /* RTSpinKitPulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitPulseAnimation.m; path = SpinKit/Animations/RTSpinKitPulseAnimation.m; sourceTree = "<group>"; };
+		2898444963439B02983DA208 /* RTSpinKitCircleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitCircleAnimation.m; path = SpinKit/Animations/RTSpinKitCircleAnimation.m; sourceTree = "<group>"; };
+		2F8F6CD3F572650BF7595A91 /* RTSpinKitFadingCircleAltAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitFadingCircleAltAnimation.h; path = SpinKit/Animations/RTSpinKitFadingCircleAltAnimation.h; sourceTree = "<group>"; };
+		362834FB850527FA7E8BB4B0 /* RTSpinKitFadingCircleAltAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitFadingCircleAltAnimation.m; path = SpinKit/Animations/RTSpinKitFadingCircleAltAnimation.m; sourceTree = "<group>"; };
+		3AA06EF89F693EBAC72CF369 /* RTSpinKitCircleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitCircleAnimation.h; path = SpinKit/Animations/RTSpinKitCircleAnimation.h; sourceTree = "<group>"; };
+		42FBF7AE4565F0DE44576BB3 /* RTSpinKitArcAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitArcAnimation.h; path = SpinKit/Animations/RTSpinKitArcAnimation.h; sourceTree = "<group>"; };
+		42FC4F573992476077517A11 /* RTSpinKitFadingCircleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitFadingCircleAnimation.h; path = SpinKit/Animations/RTSpinKitFadingCircleAnimation.h; sourceTree = "<group>"; };
+		48C57A0CD5D5425E74700B85 /* RTSpinKit9CubeGridAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKit9CubeGridAnimation.m; path = SpinKit/Animations/RTSpinKit9CubeGridAnimation.m; sourceTree = "<group>"; };
+		4ECE93BAFEBD78835D2C373C /* RTSpinKitUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitUtils.h; path = SpinKit/RTSpinKitUtils.h; sourceTree = "<group>"; };
+		5954CE80CA5F4F3AB6E31086 /* RTSpinKitPlaneAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitPlaneAnimation.m; path = SpinKit/Animations/RTSpinKitPlaneAnimation.m; sourceTree = "<group>"; };
+		62D2C3126B1DAA54B799CA13 /* RTSpinKitWanderingCubesAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitWanderingCubesAnimation.h; path = SpinKit/Animations/RTSpinKitWanderingCubesAnimation.h; sourceTree = "<group>"; };
+		6D0304B2265507B2CA07462F /* RTSpinKitThreeBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitThreeBounceAnimation.m; path = SpinKit/Animations/RTSpinKitThreeBounceAnimation.m; sourceTree = "<group>"; };
+		7B35439F6A39718C696961F1 /* RTSpinKitUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitUtils.m; path = SpinKit/RTSpinKitUtils.m; sourceTree = "<group>"; };
+		854C66D102FC45A25CB89A8D /* RTSpinKitCircleFlipAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitCircleFlipAnimation.m; path = SpinKit/Animations/RTSpinKitCircleFlipAnimation.m; sourceTree = "<group>"; };
+		8B83AA77DF6B97AFFEB23A14 /* RTSpinKitBounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitBounceAnimation.h; path = SpinKit/Animations/RTSpinKitBounceAnimation.h; sourceTree = "<group>"; };
+		8B89C8CC853911E47DDE2B56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8F7F08C6844D949DD8756D05 /* RTSpinKitArcAltAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitArcAltAnimation.m; path = SpinKit/Animations/RTSpinKitArcAltAnimation.m; sourceTree = "<group>"; };
+		918F9906C89292AFEAE4EFB7 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		9254E30AFA5B83AB83F54054 /* libPods-SpinKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpinKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		941BA73D47D9532311410787 /* RTSpinKitArcAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitArcAnimation.m; path = SpinKit/Animations/RTSpinKitArcAnimation.m; sourceTree = "<group>"; };
+		986FB366C099CC94DD28D854 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B740E2A3BED49F6FC3AD025 /* RTSpinKitChasingDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitChasingDotsAnimation.h; path = SpinKit/Animations/RTSpinKitChasingDotsAnimation.h; sourceTree = "<group>"; };
+		9BB2E5E0EB00AE56BC90AFFA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		9EDEB931CD7D487077E1B2DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10158403434CA45576C9953 /* RTSpinKitWordPressAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWordPressAnimation.m; path = SpinKit/Animations/RTSpinKitWordPressAnimation.m; sourceTree = "<group>"; };
+		AACA42F67BC46BDA6C8E54BE /* Pods-SpinKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpinKit-Private.xcconfig"; sourceTree = "<group>"; };
+		B85BDB60C37A3B623BA8020E /* Pods-SpinKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpinKit-dummy.m"; sourceTree = "<group>"; };
+		C637F88E83AAB24E5A44030F /* RTSpinKitPlaneAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitPlaneAnimation.h; path = SpinKit/Animations/RTSpinKitPlaneAnimation.h; sourceTree = "<group>"; };
+		C9186CEEDE2D6C485D2FCBFF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		C9DB437C122ABBEA17858819 /* RTSpinKitView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitView.h; path = SpinKit/RTSpinKitView.h; sourceTree = "<group>"; };
+		CA0CB5DDA8DD5238D715B45F /* RTSpinKitWaveAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitWaveAnimation.h; path = SpinKit/Animations/RTSpinKitWaveAnimation.h; sourceTree = "<group>"; };
+		CD73C06319FFAA6AA46506FF /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		E0E297D7E96E7972CDBA623D /* RTSpinKitWanderingCubesAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWanderingCubesAnimation.m; path = SpinKit/Animations/RTSpinKitWanderingCubesAnimation.m; sourceTree = "<group>"; };
+		E1401545F2B09BE3847F387B /* Pods-SpinKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpinKit.xcconfig"; sourceTree = "<group>"; };
+		E555C9B66A7F75CA7365DCD5 /* RTSpinKitView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitView.m; path = SpinKit/RTSpinKitView.m; sourceTree = "<group>"; };
+		ECEE1EF6DCD0175DFB89E171 /* RTSpinKitCircleFlipAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitCircleFlipAnimation.h; path = SpinKit/Animations/RTSpinKitCircleFlipAnimation.h; sourceTree = "<group>"; };
+		F17C89D31031D9E2EE6B8D71 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		F8B4EF8BC09E57459E67C49A /* Pods-SpinKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpinKit-prefix.pch"; sourceTree = "<group>"; };
+		F8CBD638D96FDA3F68CC5977 /* RTSpinKitThreeBounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitThreeBounceAnimation.h; path = SpinKit/Animations/RTSpinKitThreeBounceAnimation.h; sourceTree = "<group>"; };
+		FB54AE479CDB32995A3ED611 /* RTSpinKit9CubeGridAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKit9CubeGridAnimation.h; path = SpinKit/Animations/RTSpinKit9CubeGridAnimation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7759C697BD979838B8A688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C169B164A4003479EB950AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B6BFA7DF6977F8278E57FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5697905240B332C16D006E50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12FB58CB9536794A518CC86A = {
+			isa = PBXGroup;
+			children = (
+				114600B76AF48032B7391FA7 /* Podfile */,
+				59EFA61E225BFF7C2B0CB882 /* Frameworks */,
+				8C7129AD4D01074028742219 /* Pods */,
+				637FBCC2908AADC1B4134A8B /* Products */,
+				4A2F6E171450F12117FF2F0F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		1F215098353CD92638F41E00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1401545F2B09BE3847F387B /* Pods-SpinKit.xcconfig */,
+				AACA42F67BC46BDA6C8E54BE /* Pods-SpinKit-Private.xcconfig */,
+				B85BDB60C37A3B623BA8020E /* Pods-SpinKit-dummy.m */,
+				F8B4EF8BC09E57459E67C49A /* Pods-SpinKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SpinKit";
+			sourceTree = "<group>";
+		};
+		33C9F6725724E2F4EED1E486 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C2DAD58D09E45B638F9942F /* Pods-acknowledgements.markdown */,
+				986FB366C099CC94DD28D854 /* Pods-acknowledgements.plist */,
+				918F9906C89292AFEAE4EFB7 /* Pods-dummy.m */,
+				CD73C06319FFAA6AA46506FF /* Pods-environment.h */,
+				9BB2E5E0EB00AE56BC90AFFA /* Pods-resources.sh */,
+				C9186CEEDE2D6C485D2FCBFF /* Pods.debug.xcconfig */,
+				F17C89D31031D9E2EE6B8D71 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		4A2F6E171450F12117FF2F0F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33C9F6725724E2F4EED1E486 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59EFA61E225BFF7C2B0CB882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BE5E824ADBC9BA84E230660 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		637FBCC2908AADC1B4134A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EDEB931CD7D487077E1B2DB /* libPods.a */,
+				9254E30AFA5B83AB83F54054 /* libPods-SpinKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE5E824ADBC9BA84E230660 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B89C8CC853911E47DDE2B56 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A14D6F05BF1F25DD2F09214 /* SpinKit */ = {
+			isa = PBXGroup;
+			children = (
+				FB54AE479CDB32995A3ED611 /* RTSpinKit9CubeGridAnimation.h */,
+				48C57A0CD5D5425E74700B85 /* RTSpinKit9CubeGridAnimation.m */,
+				191C9B085786336E83B9BD84 /* RTSpinKitAnimating.h */,
+				0DF52F354D6626EDA21871DA /* RTSpinKitArcAltAnimation.h */,
+				8F7F08C6844D949DD8756D05 /* RTSpinKitArcAltAnimation.m */,
+				42FBF7AE4565F0DE44576BB3 /* RTSpinKitArcAnimation.h */,
+				941BA73D47D9532311410787 /* RTSpinKitArcAnimation.m */,
+				8B83AA77DF6B97AFFEB23A14 /* RTSpinKitBounceAnimation.h */,
+				0372B1113D95E02689A9A37B /* RTSpinKitBounceAnimation.m */,
+				9B740E2A3BED49F6FC3AD025 /* RTSpinKitChasingDotsAnimation.h */,
+				019EE0D824DDDF65694A0EEA /* RTSpinKitChasingDotsAnimation.m */,
+				3AA06EF89F693EBAC72CF369 /* RTSpinKitCircleAnimation.h */,
+				2898444963439B02983DA208 /* RTSpinKitCircleAnimation.m */,
+				ECEE1EF6DCD0175DFB89E171 /* RTSpinKitCircleFlipAnimation.h */,
+				854C66D102FC45A25CB89A8D /* RTSpinKitCircleFlipAnimation.m */,
+				2F8F6CD3F572650BF7595A91 /* RTSpinKitFadingCircleAltAnimation.h */,
+				362834FB850527FA7E8BB4B0 /* RTSpinKitFadingCircleAltAnimation.m */,
+				42FC4F573992476077517A11 /* RTSpinKitFadingCircleAnimation.h */,
+				01F190BDBC206169C422C352 /* RTSpinKitFadingCircleAnimation.m */,
+				C637F88E83AAB24E5A44030F /* RTSpinKitPlaneAnimation.h */,
+				5954CE80CA5F4F3AB6E31086 /* RTSpinKitPlaneAnimation.m */,
+				1FE73DC03A9FFC87C3004A47 /* RTSpinKitPulseAnimation.h */,
+				21C1548A1F3FD4B89327839F /* RTSpinKitPulseAnimation.m */,
+				F8CBD638D96FDA3F68CC5977 /* RTSpinKitThreeBounceAnimation.h */,
+				6D0304B2265507B2CA07462F /* RTSpinKitThreeBounceAnimation.m */,
+				4ECE93BAFEBD78835D2C373C /* RTSpinKitUtils.h */,
+				7B35439F6A39718C696961F1 /* RTSpinKitUtils.m */,
+				C9DB437C122ABBEA17858819 /* RTSpinKitView.h */,
+				E555C9B66A7F75CA7365DCD5 /* RTSpinKitView.m */,
+				62D2C3126B1DAA54B799CA13 /* RTSpinKitWanderingCubesAnimation.h */,
+				E0E297D7E96E7972CDBA623D /* RTSpinKitWanderingCubesAnimation.m */,
+				CA0CB5DDA8DD5238D715B45F /* RTSpinKitWaveAnimation.h */,
+				1A2B060DE6883589F1AAA196 /* RTSpinKitWaveAnimation.m */,
+				0204BFD9B35C591E1FC588B6 /* RTSpinKitWordPressAnimation.h */,
+				A10158403434CA45576C9953 /* RTSpinKitWordPressAnimation.m */,
+				1F215098353CD92638F41E00 /* Support Files */,
+			);
+			path = SpinKit;
+			sourceTree = "<group>";
+		};
+		8C7129AD4D01074028742219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A14D6F05BF1F25DD2F09214 /* SpinKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BACA14B84BB9E21BD137CF9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABDB4BE0B8012552FBA1CE1 /* RTSpinKit9CubeGridAnimation.h in Headers */,
+				24B82CFEFA621A556ADBCA7C /* RTSpinKitAnimating.h in Headers */,
+				A60BF9EA8B382577DF07F717 /* RTSpinKitArcAltAnimation.h in Headers */,
+				4B60F0B8C33506DD154CFE4A /* RTSpinKitArcAnimation.h in Headers */,
+				4F042C43402C8C0B0B99EE92 /* RTSpinKitBounceAnimation.h in Headers */,
+				A3DF16F89A4027264DDE60A0 /* RTSpinKitChasingDotsAnimation.h in Headers */,
+				52FC2D5AD83738BAFDB93028 /* RTSpinKitCircleAnimation.h in Headers */,
+				8E2E2985000D366E72A1C09F /* RTSpinKitCircleFlipAnimation.h in Headers */,
+				CC6C187E7D8298B03A4014DC /* RTSpinKitFadingCircleAltAnimation.h in Headers */,
+				D3701D9F61E49E614D247F05 /* RTSpinKitFadingCircleAnimation.h in Headers */,
+				CB0E8A81E3B0B383B959CF17 /* RTSpinKitPlaneAnimation.h in Headers */,
+				3B3D16AD6DC75E2A4DF33461 /* RTSpinKitPulseAnimation.h in Headers */,
+				FA81AA8E63328119E51DE45F /* RTSpinKitThreeBounceAnimation.h in Headers */,
+				A695B707E346FD23ECFD8CBD /* RTSpinKitUtils.h in Headers */,
+				362B77051B190BD9097F3176 /* RTSpinKitView.h in Headers */,
+				0A7EA3DD9A7DFCC52098AD34 /* RTSpinKitWanderingCubesAnimation.h in Headers */,
+				476768B488DAB574D8DE02D2 /* RTSpinKitWaveAnimation.h in Headers */,
+				C6772FDFC18A5148DAE054B4 /* RTSpinKitWordPressAnimation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05BA6330B56AB597A9759964 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B317F068BAF6C61963D4F08 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				BD6DD2836C01CEC42E9B84E8 /* Sources */,
+				6D7759C697BD979838B8A688 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32C3C966330F3409881685E2 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 9EDEB931CD7D487077E1B2DB /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4B51D0111A74B45D403CF394 /* Pods-SpinKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A5611BF6B413DA820CB800 /* Build configuration list for PBXNativeTarget "Pods-SpinKit" */;
+			buildPhases = (
+				F743007A53D89B127E16DA78 /* Sources */,
+				E7B6BFA7DF6977F8278E57FF /* Frameworks */,
+				BACA14B84BB9E21BD137CF9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SpinKit";
+			productName = "Pods-SpinKit";
+			productReference = 9254E30AFA5B83AB83F54054 /* libPods-SpinKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30777DA4DF77A5FC01433340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 9806ABF64FBAE4A4B6CDB9D0 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12FB58CB9536794A518CC86A;
+			productRefGroup = 637FBCC2908AADC1B4134A8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05BA6330B56AB597A9759964 /* Pods */,
+				4B51D0111A74B45D403CF394 /* Pods-SpinKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD6DD2836C01CEC42E9B84E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE82769A4CEFE5A28DEEA14 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F743007A53D89B127E16DA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B59AF720BF9CDD643D5184 /* Pods-SpinKit-dummy.m in Sources */,
+				ED33321114DEC495BE4A66F1 /* RTSpinKit9CubeGridAnimation.m in Sources */,
+				7ED32F3CC0D74674D03D4702 /* RTSpinKitArcAltAnimation.m in Sources */,
+				BD7E456CA9074D33C8F8809C /* RTSpinKitArcAnimation.m in Sources */,
+				DB67C2C76FFB1EE8787A412C /* RTSpinKitBounceAnimation.m in Sources */,
+				EE8F011E6C974278C284ABD0 /* RTSpinKitChasingDotsAnimation.m in Sources */,
+				C7432D998B1FCDC7EA71A4E1 /* RTSpinKitCircleAnimation.m in Sources */,
+				0A8FD22426F0963361183120 /* RTSpinKitCircleFlipAnimation.m in Sources */,
+				2E56F1A4897E41DC4A1CF31B /* RTSpinKitFadingCircleAltAnimation.m in Sources */,
+				E6BFEA52928EFF33EB9B278E /* RTSpinKitFadingCircleAnimation.m in Sources */,
+				17B408B4CEFE2A843658801E /* RTSpinKitPlaneAnimation.m in Sources */,
+				918D8C759AAD9BDB9CF990C9 /* RTSpinKitPulseAnimation.m in Sources */,
+				FCEE346C05AE67734960F03C /* RTSpinKitThreeBounceAnimation.m in Sources */,
+				0865EF0CF294DCFF2671E206 /* RTSpinKitUtils.m in Sources */,
+				423D65945AD86CA189A11104 /* RTSpinKitView.m in Sources */,
+				486C94147ACE00D0163E1BBC /* RTSpinKitWanderingCubesAnimation.m in Sources */,
+				D521D60842C967203AF20FBE /* RTSpinKitWaveAnimation.m in Sources */,
+				943D4AB2BE6010C4F41E5125 /* RTSpinKitWordPressAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32C3C966330F3409881685E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SpinKit";
+			target = 4B51D0111A74B45D403CF394 /* Pods-SpinKit */;
+			targetProxy = 3FF445B84CAB041F40FFB627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		048720606D7C05625D4F3871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0B044A3955ADB480C525E2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACA42F67BC46BDA6C8E54BE /* Pods-SpinKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SpinKit/Pods-SpinKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1D29E82FE3B6B5CCE5357050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DF5DA67FFDD121F2DAE1334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9186CEEDE2D6C485D2FCBFF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A2CAA8FBF301211A4CE3B94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACA42F67BC46BDA6C8E54BE /* Pods-SpinKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SpinKit/Pods-SpinKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CE24AEF1CEC63EC44AEE371B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17C89D31031D9E2EE6B8D71 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39A5611BF6B413DA820CB800 /* Build configuration list for PBXNativeTarget "Pods-SpinKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CAA8FBF301211A4CE3B94A /* Debug */,
+				0B044A3955ADB480C525E2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B317F068BAF6C61963D4F08 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF5DA67FFDD121F2DAE1334 /* Debug */,
+				CE24AEF1CEC63EC44AEE371B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9806ABF64FBAE4A4B6CDB9D0 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048720606D7C05625D4F3871 /* Debug */,
+				1D29E82FE3B6B5CCE5357050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30777DA4DF77A5FC01433340 /* Project object */;
+}

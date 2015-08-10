@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256173E0EE85B6C25EB01937 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5768B75B4CB6C240D93D5A0 /* libPods.a */; };
+		D8580C851B7655B500DCE0C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8580C841B7655B500DCE0C7 /* main.m */; };
+		D8580C881B7655B500DCE0C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8580C871B7655B500DCE0C7 /* AppDelegate.m */; };
+		D8580C8B1B7655B500DCE0C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8580C8A1B7655B500DCE0C7 /* ViewController.m */; };
+		D8580C8E1B7655B500DCE0C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8580C8C1B7655B500DCE0C7 /* Main.storyboard */; };
+		D8580C901B7655B500DCE0C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8580C8F1B7655B500DCE0C7 /* Images.xcassets */; };
+		D8580C931B7655B500DCE0C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8580C911B7655B500DCE0C7 /* LaunchScreen.xib */; };
+		D8580C9F1B7655B500DCE0C7 /* SpinRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8580C9E1B7655B500DCE0C7 /* SpinRefreshTests.m */; };
+		D8580CAD1B7656C000DCE0C7 /* HeaderRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D8580CAA1B7656C000DCE0C7 /* HeaderRefreshControl.m */; };
+		D8580CAE1B7656C000DCE0C7 /* FooterRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D8580CAC1B7656C000DCE0C7 /* FooterRefreshControl.m */; };
+		D89368A01B78EF8E00E289A1 /* NaRTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = D893689F1B78EF8E00E289A1 /* NaRTSpinKitView.m */; };
+		D8E169B71B788825006C25B7 /* CAAnimation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E169A91B788825006C25B7 /* CAAnimation+Blocks.m */; };
+		D8E169B81B788825006C25B7 /* ScrollViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E169AD1B788825006C25B7 /* ScrollViewFrameAccessor.m */; };
+		D8E169B91B788825006C25B7 /* ViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E169AF1B788825006C25B7 /* ViewFrameAccessor.m */; };
+		D8E169BA1B788825006C25B7 /* SCBubbleRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E169B11B788825006C25B7 /* SCBubbleRefreshView.m */; };
+		D8E169BB1B788825006C25B7 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E169B41B788825006C25B7 /* UIScrollView+SVInfiniteScrolling.m */; };
+		D8E169BC1B788825006C25B7 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E169B61B788825006C25B7 /* UIScrollView+SVPullToRefresh.m */; };
+		D8E169BF1B788E4F006C25B7 /* MaopaoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E169BE1B788E4F006C25B7 /* MaopaoVC.m */; };
+		D8E169C21B789AEC006C25B7 /* SpinVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E169C11B789AEC006C25B7 /* SpinVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8580C991B7655B500DCE0C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8580C771B7655B500DCE0C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8580C7E1B7655B500DCE0C7;
+			remoteInfo = SpinRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64B17FB54666837FB2DA8E2A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B5768B75B4CB6C240D93D5A0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36B525908CAE51E82186FC4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D8580C7F1B7655B500DCE0C7 /* SpinRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8580C831B7655B500DCE0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8580C841B7655B500DCE0C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8580C861B7655B500DCE0C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8580C871B7655B500DCE0C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8580C891B7655B500DCE0C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8580C8A1B7655B500DCE0C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8580C8D1B7655B500DCE0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8580C8F1B7655B500DCE0C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8580C921B7655B500DCE0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D8580C981B7655B500DCE0C7 /* SpinRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8580C9D1B7655B500DCE0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8580C9E1B7655B500DCE0C7 /* SpinRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinRefreshTests.m; sourceTree = "<group>"; };
+		D8580CA91B7656C000DCE0C7 /* HeaderRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderRefreshControl.h; sourceTree = "<group>"; };
+		D8580CAA1B7656C000DCE0C7 /* HeaderRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderRefreshControl.m; sourceTree = "<group>"; };
+		D8580CAB1B7656C000DCE0C7 /* FooterRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterRefreshControl.h; sourceTree = "<group>"; };
+		D8580CAC1B7656C000DCE0C7 /* FooterRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterRefreshControl.m; sourceTree = "<group>"; };
+		D893689E1B78EF8E00E289A1 /* NaRTSpinKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaRTSpinKitView.h; sourceTree = "<group>"; };
+		D893689F1B78EF8E00E289A1 /* NaRTSpinKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaRTSpinKitView.m; sourceTree = "<group>"; };
+		D8E169A81B788825006C25B7 /* CAAnimation+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+Blocks.h"; sourceTree = "<group>"; };
+		D8E169A91B788825006C25B7 /* CAAnimation+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+Blocks.m"; sourceTree = "<group>"; };
+		D8E169AB1B788825006C25B7 /* FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAccessor.h; sourceTree = "<group>"; };
+		D8E169AC1B788825006C25B7 /* ScrollViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewFrameAccessor.h; sourceTree = "<group>"; };
+		D8E169AD1B788825006C25B7 /* ScrollViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewFrameAccessor.m; sourceTree = "<group>"; };
+		D8E169AE1B788825006C25B7 /* ViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFrameAccessor.h; sourceTree = "<group>"; };
+		D8E169AF1B788825006C25B7 /* ViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFrameAccessor.m; sourceTree = "<group>"; };
+		D8E169B01B788825006C25B7 /* SCBubbleRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCBubbleRefreshView.h; sourceTree = "<group>"; };
+		D8E169B11B788825006C25B7 /* SCBubbleRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCBubbleRefreshView.m; sourceTree = "<group>"; };
+		D8E169B21B788825006C25B7 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
+		D8E169B31B788825006C25B7 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
+		D8E169B41B788825006C25B7 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
+		D8E169B51B788825006C25B7 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
+		D8E169B61B788825006C25B7 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
+		D8E169BD1B788E4F006C25B7 /* MaopaoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaopaoVC.h; sourceTree = "<group>"; };
+		D8E169BE1B788E4F006C25B7 /* MaopaoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaopaoVC.m; sourceTree = "<group>"; };
+		D8E169C01B789AEC006C25B7 /* SpinVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinVC.h; sourceTree = "<group>"; };
+		D8E169C11B789AEC006C25B7 /* SpinVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8580C7C1B7655B500DCE0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256173E0EE85B6C25EB01937 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8580C951B7655B500DCE0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C41E01A16693BC1707891416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5768B75B4CB6C240D93D5A0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C694D9FFD4BB901446B894ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D36B525908CAE51E82186FC4 /* Pods.debug.xcconfig */,
+				64B17FB54666837FB2DA8E2A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8580C761B7655B500DCE0C7 = {
+			isa = PBXGroup;
+			children = (
+				D8580C811B7655B500DCE0C7 /* SpinRefresh */,
+				D8580C9B1B7655B500DCE0C7 /* SpinRefreshTests */,
+				D8580C801B7655B500DCE0C7 /* Products */,
+				C694D9FFD4BB901446B894ED /* Pods */,
+				C41E01A16693BC1707891416 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8580C801B7655B500DCE0C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8580C7F1B7655B500DCE0C7 /* SpinRefresh.app */,
+				D8580C981B7655B500DCE0C7 /* SpinRefreshTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8580C811B7655B500DCE0C7 /* SpinRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				D893689D1B78EF7100E289A1 /* NaRTSpinKitView */,
+				D8E169A61B788825006C25B7 /* SVPullToRefresh */,
+				D8580CA81B7656AC00DCE0C7 /* SpinRefresh */,
+				D8580C861B7655B500DCE0C7 /* AppDelegate.h */,
+				D8580C871B7655B500DCE0C7 /* AppDelegate.m */,
+				D8E169BD1B788E4F006C25B7 /* MaopaoVC.h */,
+				D8E169BE1B788E4F006C25B7 /* MaopaoVC.m */,
+				D8E169C01B789AEC006C25B7 /* SpinVC.h */,
+				D8E169C11B789AEC006C25B7 /* SpinVC.m */,
+				D8580C891B7655B500DCE0C7 /* ViewController.h */,
+				D8580C8A1B7655B500DCE0C7 /* ViewController.m */,
+				D8580C8C1B7655B500DCE0C7 /* Main.storyboard */,
+				D8580C8F1B7655B500DCE0C7 /* Images.xcassets */,
+				D8580C911B7655B500DCE0C7 /* LaunchScreen.xib */,
+				D8580C821B7655B500DCE0C7 /* Supporting Files */,
+			);
+			path = SpinRefresh;
+			sourceTree = "<group>";
+		};
+		D8580C821B7655B500DCE0C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8580C831B7655B500DCE0C7 /* Info.plist */,
+				D8580C841B7655B500DCE0C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8580C9B1B7655B500DCE0C7 /* SpinRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8580C9E1B7655B500DCE0C7 /* SpinRefreshTests.m */,
+				D8580C9C1B7655B500DCE0C7 /* Supporting Files */,
+			);
+			path = SpinRefreshTests;
+			sourceTree = "<group>";
+		};
+		D8580C9C1B7655B500DCE0C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8580C9D1B7655B500DCE0C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8580CA81B7656AC00DCE0C7 /* SpinRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				D8580CA91B7656C000DCE0C7 /* HeaderRefreshControl.h */,
+				D8580CAA1B7656C000DCE0C7 /* HeaderRefreshControl.m */,
+				D8580CAB1B7656C000DCE0C7 /* FooterRefreshControl.h */,
+				D8580CAC1B7656C000DCE0C7 /* FooterRefreshControl.m */,
+			);
+			path = SpinRefresh;
+			sourceTree = "<group>";
+		};
+		D893689D1B78EF7100E289A1 /* NaRTSpinKitView */ = {
+			isa = PBXGroup;
+			children = (
+				D893689E1B78EF8E00E289A1 /* NaRTSpinKitView.h */,
+				D893689F1B78EF8E00E289A1 /* NaRTSpinKitView.m */,
+			);
+			path = NaRTSpinKitView;
+			sourceTree = "<group>";
+		};
+		D8E169A61B788825006C25B7 /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				D8E169A71B788825006C25B7 /* CAAnimationBlocks */,
+				D8E169AA1B788825006C25B7 /* FrameAccessor */,
+				D8E169B01B788825006C25B7 /* SCBubbleRefreshView.h */,
+				D8E169B11B788825006C25B7 /* SCBubbleRefreshView.m */,
+				D8E169B21B788825006C25B7 /* SVPullToRefresh.h */,
+				D8E169B31B788825006C25B7 /* UIScrollView+SVInfiniteScrolling.h */,
+				D8E169B41B788825006C25B7 /* UIScrollView+SVInfiniteScrolling.m */,
+				D8E169B51B788825006C25B7 /* UIScrollView+SVPullToRefresh.h */,
+				D8E169B61B788825006C25B7 /* UIScrollView+SVPullToRefresh.m */,
+			);
+			path = SVPullToRefresh;
+			sourceTree = "<group>";
+		};
+		D8E169A71B788825006C25B7 /* CAAnimationBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				D8E169A81B788825006C25B7 /* CAAnimation+Blocks.h */,
+				D8E169A91B788825006C25B7 /* CAAnimation+Blocks.m */,
+			);
+			path = CAAnimationBlocks;
+			sourceTree = "<group>";
+		};
+		D8E169AA1B788825006C25B7 /* FrameAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				D8E169AB1B788825006C25B7 /* FrameAccessor.h */,
+				D8E169AC1B788825006C25B7 /* ScrollViewFrameAccessor.h */,
+				D8E169AD1B788825006C25B7 /* ScrollViewFrameAccessor.m */,
+				D8E169AE1B788825006C25B7 /* ViewFrameAccessor.h */,
+				D8E169AF1B788825006C25B7 /* ViewFrameAccessor.m */,
+			);
+			path = FrameAccessor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8580C7E1B7655B500DCE0C7 /* SpinRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8580CA21B7655B500DCE0C7 /* Build configuration list for PBXNativeTarget "SpinRefresh" */;
+			buildPhases = (
+				6AF8E6854EE8E829CA216B6D /* Check Pods Manifest.lock */,
+				D8580C7B1B7655B500DCE0C7 /* Sources */,
+				D8580C7C1B7655B500DCE0C7 /* Frameworks */,
+				D8580C7D1B7655B500DCE0C7 /* Resources */,
+				CCB82860986542456919D6BD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinRefresh;
+			productName = SpinRefresh;
+			productReference = D8580C7F1B7655B500DCE0C7 /* SpinRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8580C971B7655B500DCE0C7 /* SpinRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8580CA51B7655B500DCE0C7 /* Build configuration list for PBXNativeTarget "SpinRefreshTests" */;
+			buildPhases = (
+				D8580C941B7655B500DCE0C7 /* Sources */,
+				D8580C951B7655B500DCE0C7 /* Frameworks */,
+				D8580C961B7655B500DCE0C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8580C9A1B7655B500DCE0C7 /* PBXTargetDependency */,
+			);
+			name = SpinRefreshTests;
+			productName = SpinRefreshTests;
+			productReference = D8580C981B7655B500DCE0C7 /* SpinRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8580C771B7655B500DCE0C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Nathan_he;
+				TargetAttributes = {
+					D8580C7E1B7655B500DCE0C7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D8580C971B7655B500DCE0C7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D8580C7E1B7655B500DCE0C7;
+					};
+				};
+			};
+			buildConfigurationList = D8580C7A1B7655B500DCE0C7 /* Build configuration list for PBXProject "SpinRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8580C761B7655B500DCE0C7;
+			productRefGroup = D8580C801B7655B500DCE0C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8580C7E1B7655B500DCE0C7 /* SpinRefresh */,
+				D8580C971B7655B500DCE0C7 /* SpinRefreshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8580C7D1B7655B500DCE0C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8580C8E1B7655B500DCE0C7 /* Main.storyboard in Resources */,
+				D8580C931B7655B500DCE0C7 /* LaunchScreen.xib in Resources */,
+				D8580C901B7655B500DCE0C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8580C961B7655B500DCE0C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AF8E6854EE8E829CA216B6D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCB82860986542456919D6BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8580C7B1B7655B500DCE0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8580C8B1B7655B500DCE0C7 /* ViewController.m in Sources */,
+				D8E169BC1B788825006C25B7 /* UIScrollView+SVPullToRefresh.m in Sources */,
+				D8580C881B7655B500DCE0C7 /* AppDelegate.m in Sources */,
+				D8E169B71B788825006C25B7 /* CAAnimation+Blocks.m in Sources */,
+				D8580CAD1B7656C000DCE0C7 /* HeaderRefreshControl.m in Sources */,
+				D8E169BB1B788825006C25B7 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				D8580C851B7655B500DCE0C7 /* main.m in Sources */,
+				D8E169BF1B788E4F006C25B7 /* MaopaoVC.m in Sources */,
+				D89368A01B78EF8E00E289A1 /* NaRTSpinKitView.m in Sources */,
+				D8E169C21B789AEC006C25B7 /* SpinVC.m in Sources */,
+				D8580CAE1B7656C000DCE0C7 /* FooterRefreshControl.m in Sources */,
+				D8E169B81B788825006C25B7 /* ScrollViewFrameAccessor.m in Sources */,
+				D8E169BA1B788825006C25B7 /* SCBubbleRefreshView.m in Sources */,
+				D8E169B91B788825006C25B7 /* ViewFrameAccessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8580C941B7655B500DCE0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8580C9F1B7655B500DCE0C7 /* SpinRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8580C9A1B7655B500DCE0C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8580C7E1B7655B500DCE0C7 /* SpinRefresh */;
+			targetProxy = D8580C991B7655B500DCE0C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8580C8C1B7655B500DCE0C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8580C8D1B7655B500DCE0C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8580C911B7655B500DCE0C7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8580C921B7655B500DCE0C7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8580CA01B7655B500DCE0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8580CA11B7655B500DCE0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8580CA31B7655B500DCE0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36B525908CAE51E82186FC4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpinRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8580CA41B7655B500DCE0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B17FB54666837FB2DA8E2A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpinRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8580CA61B7655B500DCE0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpinRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpinRefresh.app/SpinRefresh";
+			};
+			name = Debug;
+		};
+		D8580CA71B7655B500DCE0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpinRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpinRefresh.app/SpinRefresh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8580C7A1B7655B500DCE0C7 /* Build configuration list for PBXProject "SpinRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8580CA01B7655B500DCE0C7 /* Debug */,
+				D8580CA11B7655B500DCE0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8580CA21B7655B500DCE0C7 /* Build configuration list for PBXNativeTarget "SpinRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8580CA31B7655B500DCE0C7 /* Debug */,
+				D8580CA41B7655B500DCE0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8580CA51B7655B500DCE0C7 /* Build configuration list for PBXNativeTarget "SpinRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8580CA61B7655B500DCE0C7 /* Debug */,
+				D8580CA71B7655B500DCE0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8580C771B7655B500DCE0C7 /* Project object */;
+}

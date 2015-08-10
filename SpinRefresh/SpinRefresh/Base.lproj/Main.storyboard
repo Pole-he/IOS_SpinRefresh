@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Lh8-VQ-yQB">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="tsh-53-T6W">
+            <objects>
+                <navigationController id="Lh8-VQ-yQB" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="BDo-W2-XgK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.81960784310000001" green="0.023529411760000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.81960784310000001" green="0.023529411760000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="J2b-RO-6G3" kind="relationship" relationship="rootViewController" id="41M-d4-QIp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pib-dc-nVx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-638" y="413"/>
+        </scene>
+        <!--下拉刷新控件-->
+        <scene sceneID="dOe-NS-ke5">
+            <objects>
+                <viewController id="J2b-RO-6G3" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CdX-7q-uZQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="fzA-lr-bPn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aDi-a3-73Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbH-mR-RXf">
+                                <rect key="frame" x="88" y="138" width="144" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Spin">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showSpinsAction:" destination="J2b-RO-6G3" eventType="touchUpInside" id="Z3h-jd-qE5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2V-TD-LDn">
+                                <rect key="frame" x="88" y="67" width="144" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OlW-H3-bVJ"/>
+                                    <constraint firstAttribute="width" constant="144" id="gJw-QA-OhY"/>
+                                </constraints>
+                                <state key="normal" title="冒泡">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Nh1-V5-Uge" kind="push" id="rpX-PN-RaU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="m2V-TD-LDn" secondAttribute="centerX" id="5Ug-j3-HNr"/>
+                            <constraint firstItem="hbH-mR-RXf" firstAttribute="height" secondItem="m2V-TD-LDn" secondAttribute="height" id="Uxp-9j-QfN"/>
+                            <constraint firstItem="m2V-TD-LDn" firstAttribute="top" secondItem="CdX-7q-uZQ" secondAttribute="bottom" constant="67" id="lLz-RB-RxH"/>
+                            <constraint firstItem="hbH-mR-RXf" firstAttribute="top" secondItem="m2V-TD-LDn" secondAttribute="bottom" constant="41" id="rnN-Xd-zfi"/>
+                            <constraint firstItem="hbH-mR-RXf" firstAttribute="centerX" secondItem="m2V-TD-LDn" secondAttribute="centerX" id="t55-vd-h49"/>
+                            <constraint firstItem="hbH-mR-RXf" firstAttribute="width" secondItem="m2V-TD-LDn" secondAttribute="width" id="vWd-Rl-e0G"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="下拉刷新控件" id="I0z-kt-r7I"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="rY3-7L-tlC" kind="push" identifier="spinPush" id="0gs-40-z6X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A7m-zF-hPH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-180" y="413"/>
+        </scene>
+        <!--冒泡-->
+        <scene sceneID="cJ5-g7-kgi">
+            <objects>
+                <viewController id="Nh1-V5-Uge" customClass="MaopaoVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qRa-1G-tWa"/>
+                        <viewControllerLayoutGuide type="bottom" id="16j-jw-bpS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3rY-A9-HxJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Efs-rf-Qfx">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Nh1-V5-Uge" id="sVO-AM-7DE"/>
+                                    <outlet property="delegate" destination="Nh1-V5-Uge" id="2JL-z2-g7P"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Efs-rf-Qfx" secondAttribute="trailing" id="Bm7-4G-6cQ"/>
+                            <constraint firstItem="Efs-rf-Qfx" firstAttribute="leading" secondItem="3rY-A9-HxJ" secondAttribute="leading" id="GYU-4d-kfR"/>
+                            <constraint firstItem="16j-jw-bpS" firstAttribute="top" secondItem="Efs-rf-Qfx" secondAttribute="bottom" id="Gzl-HU-Mxs"/>
+                            <constraint firstItem="Efs-rf-Qfx" firstAttribute="top" secondItem="3rY-A9-HxJ" secondAttribute="top" id="uqV-eV-HcG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="冒泡" id="1KF-uF-jCx"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tableView" destination="Efs-rf-Qfx" id="QaA-fd-0Hf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HDp-71-pYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="215"/>
+        </scene>
+        <!--SPIN-->
+        <scene sceneID="Ret-YH-Tlm">
+            <objects>
+                <viewController id="rY3-7L-tlC" customClass="SpinVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xAj-mO-rkk"/>
+                        <viewControllerLayoutGuide type="bottom" id="qqd-7m-fFN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pmx-eD-9k1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="3Pk-3B-duR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="rY3-7L-tlC" id="LM5-nz-1vR"/>
+                                    <outlet property="delegate" destination="rY3-7L-tlC" id="VBf-JS-CfB"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3Pk-3B-duR" firstAttribute="top" secondItem="Pmx-eD-9k1" secondAttribute="top" id="E5F-gB-Nux"/>
+                            <constraint firstItem="qqd-7m-fFN" firstAttribute="top" secondItem="3Pk-3B-duR" secondAttribute="bottom" id="Xsl-7J-hKM"/>
+                            <constraint firstAttribute="trailing" secondItem="3Pk-3B-duR" secondAttribute="trailing" id="ehb-Cw-u6i"/>
+                            <constraint firstItem="3Pk-3B-duR" firstAttribute="leading" secondItem="Pmx-eD-9k1" secondAttribute="leading" id="r3F-Nr-tUQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="SPIN" id="IbD-jp-ynx"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tableView" destination="3Pk-3B-duR" id="avi-Og-UKM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K9o-Yt-bSI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="885"/>
+        </scene>
+    </scenes>
+</document>
